@@ -11,7 +11,10 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: Home
+      component: Home,
+      meta: {
+        name: "镖师修炼通道"
+      }
     }
   ]
 });

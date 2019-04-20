@@ -8,7 +8,7 @@ module.exports = {
       .use("px2rem-loader")
       .loader("px2rem-loader")
       .before("postcss-loader")
-      .options({ remUnit: 75 })
+      .options({ remUnit: 34.5 })
       .end();
   },
   configureWebpack: () => {},
